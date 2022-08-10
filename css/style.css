@@ -22,3 +22,71 @@
 #mynav{
     transition: height 1.5s ease;
 }
+#home
+{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    /*background:url("../img/bg.png") #ea6225 no-repeat;  */
+
+    height: 90vh;
+    width: 100vw;
+}
+.carousel
+{
+    width: 70%;
+}
+.mycarl
+{
+    border-radius: 20px;
+    height:80vh;
+}
+#welcm
+{
+    text-align: center;
+    position: absolute;
+    z-index: 3;
+    color:white;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+#gallery
+{
+    color: orangered;
+}
+@media only screen and (max-width:800px)
+{
+    #home
+    {
+        display:flex;
+        flex-direction: column;
+        overflow: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    #welcm
+    {
+
+        color: #212529;
+        position: relative;
+    }
+    .carousel
+    {
+        width: 60%;
+    }
+    .mycarl{
+        border-radius: 20px;
+        height:40vh;
+    }
+}
+@media only screen and (max-width:300px){
+    .carousel
+    {
+        width: 90%;
+    }
+    .mycarl{
+        border-radius: 20px;
+        height:40vh;
+    }
+}
