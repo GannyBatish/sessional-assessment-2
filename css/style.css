@@ -1,9 +1,13 @@
+#main
+{
+    width: 100%;
+}
 .container{
     padding-top: 10px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.563);
 }
 .header{
-    width: 100vw;
+    width: 100%;
     background-color: #212529;
 }
 .navbar-brand{
@@ -30,11 +34,14 @@
     /*background:url("../img/bg.png") #ea6225 no-repeat;  */
 
     height: 90vh;
-    width: 100vw;
+    width: 100%;
 }
 .carousel
 {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     width: 70%;
+    border-radius: 20px;
 }
 .mycarl
 {
@@ -58,7 +65,7 @@
 .hr-line
 {
     width: 70%;
-    margin: auto;
+    margin: auto    ;
 }
 @media only screen and (max-width:800px)
 {
@@ -94,4 +101,18 @@
         border-radius: 20px;
         height:40vh;
     }
+}
+#albums
+{
+    width: 100%;
+    height: 100vh;
+}
+#gal-cont
+{
+    text-align: center;
+}
+#gal-txt
+{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 60px;
 }
