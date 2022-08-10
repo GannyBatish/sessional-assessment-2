@@ -55,6 +55,11 @@
 {
     color: orangered;
 }
+.hr-line
+{
+    width: 70%;
+    margin: auto;
+}
 @media only screen and (max-width:800px)
 {
     #home
