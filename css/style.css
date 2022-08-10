@@ -1,0 +1,24 @@
+.container{
+    padding-top: 10px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.563);
+}
+.header{
+    width: 100vw;
+    background-color: #212529;
+}
+.navbar-brand{
+    font-weight: bold;
+}
+#title{
+    color: orangered;
+}
+.navbar{
+    height:auto;
+}
+.nav-item{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#mynav{
+    transition: height 1.5s ease;
+}
