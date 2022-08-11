@@ -261,4 +261,40 @@
     #menu-icons2{
         visibility: visible;
     }
+    #folder-header{
+        border-top-left-radius: 20px;
+    }
+    #folders{
+        border-top-left-radius: 20px;
+        border-bottom-left-radius:20px ;
+    }
+}
+#folder-site{
+    height: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+}
+.fol-cont
+{
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.fol-ico
+{
+    width: 100px;
+    height: 100px;
+}
+.alb-name{
+    position: relative;
+    top:-10px;
+    color: white;
 }
