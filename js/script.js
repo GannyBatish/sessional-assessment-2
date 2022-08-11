@@ -32,6 +32,7 @@ function func(a){
     folder.innerHTML=``;
     $(".fa-angle-left").css("color","white");
     $(".fa-angle-left").css("font-weight","bold");
+    $(".fa-angle-left").css("font-size","40px");
     var count=0;
     for(var i=0;i<obj.length;i++)
     {
@@ -50,6 +51,9 @@ $(".fa-angle-left").click(function()
     folder.innerHTML=``;
     for(var i=0;i<uniq.length;i++)
 {
+    $(".fa-angle-left").css("color","rgb(192, 181, 181)");
+    $(".fa-angle-left").css("font-weight","thin");
+    $(".fa-angle-left").css("font-size","30px");
     folder.innerHTML+=`
     <div class="fol-cont ${i+1}" value="album${1}" onclick="func(this.className)">
         <img class="fol-ico" src="img/folder.png">
